@@ -4,7 +4,7 @@ body {
 }
 
 * {
-    border: 2px sold red;
+    border: 2px soid red;
     font: Roboto;
   }
 
@@ -26,6 +26,8 @@ body {
 h1 {
     font-size: 24px;
     color: #F9FAf8;
+    flex:1; 
+    padding-left: 30px;
     
 }
 
@@ -80,7 +82,7 @@ button {
     border: 0px;
 }
 
-img {
+.titlepic {
     max-width: 400px;
     margin-right: 200px;
 }
@@ -93,10 +95,33 @@ img {
 .information {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title2 {
     font-size: 32px;
     font-weight: bolder;
     color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.infocontainer {
+    display: flex;
+    flex:1;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.infobox {
+    display:flex;
+    flex-direction: column;
+    max-width: 200px;
+    
+}
+
+.infopic {
+    max-width: 200px;
+    
 }
