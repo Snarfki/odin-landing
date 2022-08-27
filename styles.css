@@ -110,7 +110,8 @@ button {
     display: flex;
     flex:1;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
+    margin-bottom: 50px;
 
 }
 
@@ -118,10 +119,26 @@ button {
     display:flex;
     flex-direction: column;
     max-width: 200px;
-    
+
 }
 
 .infopic {
     max-width: 200px;
     
+}
+
+.qoutecontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color:#e5e7eb ;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.qoute{
+    flex:1;
+    padding-left: 200px;
+    padding right: 100px;
 }
