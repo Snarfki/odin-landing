@@ -57,6 +57,7 @@ a {
     background-color: #1f2937;
     gap:10px;
     margin-bottom: 20px;
+    flex:1;
 
 }
 
@@ -135,10 +136,35 @@ button {
     background-color:#e5e7eb ;
     font-size: 36px;
     color: #1f2937;
+    margin-bottom: 50px;
 }
 
 .qoute{
     flex:1;
     padding-left: 200px;
     padding right: 100px;
+}
+
+.ctacontainer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 20px;
+    flex: 0;
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+    gap:20px;
+
+    
+}
+
+.ctabutton {
+    border: 1px solid white;
+}
+
+.time {
+    font-size: 20px;
+    font-weight: 900 ;
 }
